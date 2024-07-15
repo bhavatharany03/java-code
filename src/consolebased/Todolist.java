@@ -19,7 +19,7 @@ public class Todolist {
                 switch (choice) {
                     case 1:
                         System.out.println("Enter the task:");
-                        scanner.nextLine(); // Consume newline
+                        scanner.nextLine(); 
                         String task = scanner.nextLine();
                         if (taskCount < tasks.length) {
                             tasks[taskCount] = task;
